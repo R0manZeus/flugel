@@ -1,0 +1,9 @@
+vpc_cidr_block         = "10.0.0.0/16"
+subnet_cidr_block      = "10.0.10.0/24"
+env_prefix             = "dev"
+az                     = "eu-west-2a"
+my_public_key_location = "~/.ssh/id_rsa.pub"
+instance_count         = 3
+avail_zone             = "eu-west-2"
+instance_type          = "t2.micro"
+image_name             = "amzn2-ami-kernel-5.10-hvm-*-x86_64-gp2"
